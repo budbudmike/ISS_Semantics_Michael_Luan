@@ -1,0 +1,369 @@
+@prefix : <http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5> .
+
+<http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_0c98cf51_9afe_4b92_b8f3_c27a7e322c40
+:OWLObjectProperty_0c98cf51_9afe_4b92_b8f3_c27a7e322c40 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                                        rdfs:range :OWLClass_9b97df10_8afc_4185_8981_4f7e00aec702 ;
+                                                        rdfs:label "debute"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_1517797e_ca04_41e2_bc37_7cd01f7945e8
+:OWLObjectProperty_1517797e_ca04_41e2_bc37_7cd01f7945e8 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                                        rdfs:range :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                        rdfs:label "est caracterise par"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_2a78112b_aeb0_4c9a_9de5_df153cd0c095
+:OWLObjectProperty_2a78112b_aeb0_4c9a_9de5_df153cd0c095 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09 ;
+                                                        rdfs:range :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                        rdfs:label "mesure"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_2fab05bd_13c5_4075_a231_ed0396651bb9
+:OWLObjectProperty_2fab05bd_13c5_4075_a231_ed0396651bb9 rdf:type owl:ObjectProperty ;
+                                                        rdfs:subPropertyOf :OWLObjectProperty_4ef02fd6_262f_4ae5_a494_78bad7c7e36f ;
+                                                        rdf:type owl:FunctionalProperty ,
+                                                                 owl:InverseFunctionalProperty ;
+                                                        rdfs:domain :OWLClass_975c4c1b_83c7_466a_86a3_bd64fc007e8a ;
+                                                        rdfs:range :OWLClass_f0616728_4788_4814_9421_1e0bf6eccaab ;
+                                                        rdfs:label "a pour capitale"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_35053e24_a2a4_4ffe_b79b_6d3a858b81eb
+:OWLObjectProperty_35053e24_a2a4_4ffe_b79b_6d3a858b81eb rdf:type owl:ObjectProperty ;
+                                                        owl:inverseOf :OWLObjectProperty_4ef02fd6_262f_4ae5_a494_78bad7c7e36f ;
+                                                        rdf:type owl:TransitiveProperty ;
+                                                        rdfs:domain :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                                        rdfs:range :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                                        rdfs:label "est inlcus dans"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_4ef02fd6_262f_4ae5_a494_78bad7c7e36f
+:OWLObjectProperty_4ef02fd6_262f_4ae5_a494_78bad7c7e36f rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                                        rdfs:range :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                                        rdfs:label "inclure"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_5a0f5163_c6c6_4917_80b2_9f849cd2f9d6
+:OWLObjectProperty_5a0f5163_c6c6_4917_80b2_9f849cd2f9d6 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                                        rdfs:range :OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09 ;
+                                                        rdfs:label "a pour symptome"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_9331ce6e_314f_415c_8690_b4b1066b1190
+:OWLObjectProperty_9331ce6e_314f_415c_8690_b4b1066b1190 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09 ;
+                                                        rdfs:range :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                                        rdfs:label "a pour localisation"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_bcc0c932_ac70_4811_852e_ff26999c5b65
+:OWLObjectProperty_bcc0c932_ac70_4811_852e_ff26999c5b65 rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09 ;
+                                                        rdfs:range :OWLClass_9b97df10_8afc_4185_8981_4f7e00aec702 ;
+                                                        rdfs:label "a pour date"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLObjectProperty_c55b3ce2_9a36_4dfa_86af_e1496e8a901c
+:OWLObjectProperty_c55b3ce2_9a36_4dfa_86af_e1496e8a901c rdf:type owl:ObjectProperty ;
+                                                        rdfs:domain :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                                        rdfs:range :OWLClass_9b97df10_8afc_4185_8981_4f7e00aec702 ;
+                                                        rdfs:label "finit"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLDataProperty_1ab509ba_3a49_47f2_b75d_2d18c53d77ac
+:OWLDataProperty_1ab509ba_3a49_47f2_b75d_2d18c53d77ac rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                                      rdfs:range xsd:integer ;
+                                                      rdfs:label "a une duree"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLDataProperty_9194b97d_a1a4_4ba4_9a0d_951ed5fd94df
+:OWLDataProperty_9194b97d_a1a4_4ba4_9a0d_951ed5fd94df rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain :OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09 ;
+                                                      rdfs:label "a une valeur"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLDataProperty_fde2ca76_5440_451b_ae01_19db289ef613
+:OWLDataProperty_fde2ca76_5440_451b_ae01_19db289ef613 rdf:type owl:DatatypeProperty ;
+                                                      rdfs:domain :OWLClass_9b97df10_8afc_4185_8981_4f7e00aec702 ;
+                                                      rdfs:range xsd:dateTimeStamp ;
+                                                      rdfs:label "a un"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_07e5b5a2_543e_45fa_9726_2e2a7bbc3ec4
+:OWLClass_07e5b5a2_543e_45fa_9726_2e2a7bbc3ec4 rdf:type owl:Class ;
+                                               owl:equivalentClass [ owl:intersectionOf ( :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :OWLDataProperty_1ab509ba_3a49_47f2_b75d_2d18c53d77ac ;
+                                                                                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                 owl:onDatatype xsd:integer ;
+                                                                                                                 owl:withRestrictions ( [ xsd:maxExclusive 15
+                                                                                                                                        ]
+                                                                                                                                      )
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
+                                               rdfs:subClassOf :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                               owl:disjointWith :OWLClass_2e635120_3e78_41ed_afbe_405b9a2cd151 ;
+                                               rdfs:label "phenomene court"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_29e62799_03b6_4ff3_9d9f_58aaaff104fd
+:OWLClass_29e62799_03b6_4ff3_9d9f_58aaaff104fd rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_5d2d09c7_52ca_4a54_ba89_50c467eda912 ;
+                                               rdfs:label "ensoleillement"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_2e635120_3e78_41ed_afbe_405b9a2cd151
+:OWLClass_2e635120_3e78_41ed_afbe_405b9a2cd151 rdf:type owl:Class ;
+                                               owl:equivalentClass [ owl:intersectionOf ( :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :OWLDataProperty_1ab509ba_3a49_47f2_b75d_2d18c53d77ac ;
+                                                                                            owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                 owl:onDatatype xsd:integer ;
+                                                                                                                 owl:withRestrictions ( [ xsd:minExclusive 15
+                                                                                                                                        ]
+                                                                                                                                      )
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
+                                               rdfs:subClassOf :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                               rdfs:label "phenomene long"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b
+:OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b rdf:type owl:Class ;
+                                               rdfs:label "lieux"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_5d2d09c7_52ca_4a54_ba89_50c467eda912
+:OWLClass_5d2d09c7_52ca_4a54_ba89_50c467eda912 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                               rdfs:label "beau temps"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_942436cc_e0c4_402a_a5de_d0692200596c
+:OWLClass_942436cc_e0c4_402a_a5de_d0692200596c rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                               rdfs:label "continent"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_975c4c1b_83c7_466a_86a3_bd64fc007e8a
+:OWLClass_975c4c1b_83c7_466a_86a3_bd64fc007e8a rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                               owl:disjointWith :OWLClass_f0616728_4788_4814_9421_1e0bf6eccaab ;
+                                               rdfs:label "pays"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_9b97df10_8afc_4185_8981_4f7e00aec702
+:OWLClass_9b97df10_8afc_4185_8981_4f7e00aec702 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d054a1ea_5fb8_4c2c_af5e_7f21f7f991cb ;
+                                               rdfs:label "instants"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_9be0cd35_391f_428c_9c72_978a83f35ba6
+:OWLClass_9be0cd35_391f_428c_9c72_978a83f35ba6 rdf:type owl:Class ;
+                                               owl:equivalentClass [ owl:intersectionOf ( :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb
+                                                                                          [ rdf:type owl:Restriction ;
+                                                                                            owl:onProperty :OWLObjectProperty_5a0f5163_c6c6_4917_80b2_9f849cd2f9d6 ;
+                                                                                            owl:someValuesFrom [ owl:intersectionOf ( :OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09
+                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                        owl:onProperty :OWLObjectProperty_2a78112b_aeb0_4c9a_9de5_df153cd0c095 ;
+                                                                                                                                        owl:hasValue :OWLNamedIndividual_cd96434c_6f50_464b_b372_a591fb8688bd
+                                                                                                                                      ]
+                                                                                                                                      [ rdf:type owl:Restriction ;
+                                                                                                                                        owl:onProperty :OWLDataProperty_9194b97d_a1a4_4ba4_9a0d_951ed5fd94df ;
+                                                                                                                                        owl:someValuesFrom [ rdf:type rdfs:Datatype ;
+                                                                                                                                                             owl:onDatatype xsd:float ;
+                                                                                                                                                             owl:withRestrictions ( [ xsd:minExclusive "0.0"^^xsd:float
+                                                                                                                                                                                    ]
+                                                                                                                                                                                  )
+                                                                                                                                                           ]
+                                                                                                                                      ]
+                                                                                                                                    ) ;
+                                                                                                                 rdf:type owl:Class
+                                                                                                               ]
+                                                                                          ]
+                                                                                        ) ;
+                                                                     rdf:type owl:Class
+                                                                   ] ;
+                                               rdfs:subClassOf :OWLClass_ee9830e2_bff6_426e_9e2a_fb4ef8ea756e ;
+                                               rdfs:label "pluie"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_b486d570_3d9e_4a1f_90d3_2820bdd91bbb
+:OWLClass_b486d570_3d9e_4a1f_90d3_2820bdd91bbb rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ee9830e2_bff6_426e_9e2a_fb4ef8ea756e ;
+                                               rdfs:label "brouillard"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09
+:OWLClass_b8bd4d43_a43e_4308_9f33_25f3def06b09 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d054a1ea_5fb8_4c2c_af5e_7f21f7f991cb ;
+                                               rdfs:label "observations"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_d054a1ea_5fb8_4c2c_af5e_7f21f7f991cb
+:OWLClass_d054a1ea_5fb8_4c2c_af5e_7f21f7f991cb rdf:type owl:Class ;
+                                               rdfs:label "concept"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52
+:OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_d054a1ea_5fb8_4c2c_af5e_7f21f7f991cb ;
+                                               rdfs:label "parametres mesurables"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb
+:OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb rdf:type owl:Class ;
+                                               rdfs:label "phenomenes"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_ee9830e2_bff6_426e_9e2a_fb4ef8ea756e
+:OWLClass_ee9830e2_bff6_426e_9e2a_fb4ef8ea756e rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_ea60180d_16a8_46cb_86fd_0e4d6628a4eb ;
+                                               rdfs:label "mauvais temps"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLClass_f0616728_4788_4814_9421_1e0bf6eccaab
+:OWLClass_f0616728_4788_4814_9421_1e0bf6eccaab rdf:type owl:Class ;
+                                               rdfs:subClassOf :OWLClass_4b760a45_b688_49ce_9e8b_41f2a529f45b ;
+                                               rdfs:label "ville"@en .
+
+
+#################################################################
+#    Individuals
+#################################################################
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_0c3e338d_c98d_467c_80be_b2d74b262436
+:OWLNamedIndividual_0c3e338d_c98d_467c_80be_b2d74b262436 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                         rdfs:label "pression atmospherique"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_0d45ec41_e078_4428_a7f8_047aa4546512
+:OWLNamedIndividual_0d45ec41_e078_4428_a7f8_047aa4546512 rdf:type owl:NamedIndividual ;
+                                                         rdfs:label "Europe"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_1f99a858_65b5_4393_937e_0e749dbe58d3
+:OWLNamedIndividual_1f99a858_65b5_4393_937e_0e749dbe58d3 rdf:type owl:NamedIndividual ;
+                                                         rdfs:label "La Ville Lumiere"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_2fbc2306_8384_4e96_afe4_e3439ca4c9bc
+:OWLNamedIndividual_2fbc2306_8384_4e96_afe4_e3439ca4c9bc rdf:type owl:NamedIndividual ;
+                                                         :OWLObjectProperty_2a78112b_aeb0_4c9a_9de5_df153cd0c095 :OWLNamedIndividual_cd96434c_6f50_464b_b372_a591fb8688bd ;
+                                                         :OWLObjectProperty_9331ce6e_314f_415c_8690_b4b1066b1190 :OWLNamedIndividual_5f90c29f_969f_4c01_958b_beda13048ea0 ;
+                                                         :OWLObjectProperty_bcc0c932_ac70_4811_852e_ff26999c5b65 :OWLNamedIndividual_4eb9747f_477b_4a59_9ccb_27ab65ca1d67 ;
+                                                         :OWLDataProperty_9194b97d_a1a4_4ba4_9a0d_951ed5fd94df 3 ;
+                                                         rdfs:label "P1"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_34b3172c_cf66_40b8_a2e0_283e8c704d33
+:OWLNamedIndividual_34b3172c_cf66_40b8_a2e0_283e8c704d33 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                         rdfs:label "hygrometrie"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_36685cb7_8c68_4486_a625_7125a8f80594
+:OWLNamedIndividual_36685cb7_8c68_4486_a625_7125a8f80594 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_975c4c1b_83c7_466a_86a3_bd64fc007e8a ;
+                                                         rdfs:label "Singapour"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_4cb2000b_c1d2_4c7d_87ab_6336ddc5c297
+:OWLNamedIndividual_4cb2000b_c1d2_4c7d_87ab_6336ddc5c297 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                         owl:sameAs :OWLNamedIndividual_78a75cc2_096d_46a7_9bbf_982f402b3655 ;
+                                                         rdfs:label "vitesse du vente"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_4eb9747f_477b_4a59_9ccb_27ab65ca1d67
+:OWLNamedIndividual_4eb9747f_477b_4a59_9ccb_27ab65ca1d67 rdf:type owl:NamedIndividual ;
+                                                         :OWLDataProperty_fde2ca76_5440_451b_ae01_19db289ef613 "2015-11-10T10:00:00Z"^^xsd:dateTimeStamp ;
+                                                         rdfs:label "I1"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_5f90c29f_969f_4c01_958b_beda13048ea0
+:OWLNamedIndividual_5f90c29f_969f_4c01_958b_beda13048ea0 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_f0616728_4788_4814_9421_1e0bf6eccaab ;
+                                                         :OWLObjectProperty_35053e24_a2a4_4ffe_b79b_6d3a858b81eb :OWLNamedIndividual_b46aee8d_d098_445b_b27c_b1e20b58301b ;
+                                                         rdfs:label "Toulouse"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_5f9a0519_d514_4cf9_96aa_2cbe2f1ebecd
+:OWLNamedIndividual_5f9a0519_d514_4cf9_96aa_2cbe2f1ebecd rdf:type owl:NamedIndividual ;
+                                                         :OWLObjectProperty_5a0f5163_c6c6_4917_80b2_9f849cd2f9d6 :OWLNamedIndividual_2fbc2306_8384_4e96_afe4_e3439ca4c9bc ;
+                                                         rdfs:label "A1"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_78a75cc2_096d_46a7_9bbf_982f402b3655
+:OWLNamedIndividual_78a75cc2_096d_46a7_9bbf_982f402b3655 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                         rdfs:label "force du vente"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_a3ebc262_e758_443f_a460_87704165db4b
+:OWLNamedIndividual_a3ebc262_e758_443f_a460_87704165db4b rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                         rdfs:label "temperature"@en ,
+                                                                    "température"@fr .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_a43f4b5e_bd98_4588_994d_5f9da8a53dbf
+:OWLNamedIndividual_a43f4b5e_bd98_4588_994d_5f9da8a53dbf rdf:type owl:NamedIndividual ;
+                                                         rdfs:label "Paris"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_b46aee8d_d098_445b_b27c_b1e20b58301b
+:OWLNamedIndividual_b46aee8d_d098_445b_b27c_b1e20b58301b rdf:type owl:NamedIndividual ;
+                                                         :OWLObjectProperty_2fab05bd_13c5_4075_a231_ed0396651bb9 :OWLNamedIndividual_1f99a858_65b5_4393_937e_0e749dbe58d3 ,
+                                                                                                                 :OWLNamedIndividual_5f90c29f_969f_4c01_958b_beda13048ea0 ,
+                                                                                                                 :OWLNamedIndividual_a43f4b5e_bd98_4588_994d_5f9da8a53dbf ;
+                                                         :OWLObjectProperty_35053e24_a2a4_4ffe_b79b_6d3a858b81eb :OWLNamedIndividual_0d45ec41_e078_4428_a7f8_047aa4546512 ;
+                                                         rdfs:label "France"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_bd2a825a_87dd_4243_bffe_a540cd35ba22
+:OWLNamedIndividual_bd2a825a_87dd_4243_bffe_a540cd35ba22 rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_975c4c1b_83c7_466a_86a3_bd64fc007e8a ;
+                                                         rdfs:label "Singapour"@en .
+
+
+###  http://www.semanticweb.org/truon/ontologies/2020/10/untitled-ontology-5#OWLNamedIndividual_cd96434c_6f50_464b_b372_a591fb8688bd
+:OWLNamedIndividual_cd96434c_6f50_464b_b372_a591fb8688bd rdf:type owl:NamedIndividual ,
+                                                                  :OWLClass_d71745b9_0e99_4255_aa03_995b7e700b52 ;
+                                                         rdfs:label "pluviometrie"@en .
+
+
+###  Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi
